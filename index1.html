@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puneeth's Showroom</title>
+    <link rel="stylesheet" href="index1.css">
+    
+</head>
+<body>
+    <div id="nav">
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="body">
+    <h1 style="text-align: center; color: rgb(23, 206, 216);">Puneeth's Showroom</h1>
+    <h2 style="text-align: center; color: rgb(28, 180, 152);">Available Cars</h2>
+    <div id="list">
+    <ul>
+        <div class="boxver">
+        <div class="box" id="mclaren">
+        <li>
+            <strong>Mc Laren</strong>
+            <p>Price:$ 2 Million
+            <pre> 
+                McLaren is a British automotive manufacturer known
+                for its commitment to speed and precision. 
+                With a rich history in Formula 1 racing, McLaren 
+                has created iconic supercars like the McLaren 
+                F1 and P1.</pre></p>
+            <br>
+            <a href="https://www.mclaren.com/">Visit Mc Laren Website</a>
+            <br>
+            <br>
+        </li>
+        </div>
+        <div class="box" id="mclaren1">
+            <img src="https://www.bing.com/th?id=OIP.zws7Ekyi1hvHMfoY8qYwbwHaEK&w=200&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" width="400" alt="Mc Laren">
+        </div>
+        </div>
+        <div class="boxver">
+        <div class="box" id="audi">
+        <li>
+            <strong>Audi</strong>
+            <p>Price: $ 3 Million
+            <pre>
+                Audi, a German luxury carmaker, combines performance
+                and sophistication.From the Audi R8 supercar to 
+                their cutting-edge electric vehicles, Audi is
+                synonymous with innovation and elegance.</pre></p>
+            <br>
+            <a href="https://www.audi.in/in/web/en.html">Visit Audi Website</a>
+            <br>
+            <br>
+
+        </li>
+        </div>
+        <div class="box" id="audi1">
+            <img src="https://th.bing.com/th/id/OIP.LNBMEro_6hYkva-XvwTvtAHaEv?pid=ImgDet&rs=1" alt="Audi">
+        </div>
+        </div>
+        <div class="boxver">
+        <div class="box" id="ferrari">
+        <li>
+            <strong>Ferrari</strong>
+            <p>Price: $ 6 Million
+            <pre>
+                Ferrari, an Italian legend, specializes in 
+                crafting high-performance supercars. The brand's
+                egacy includes iconic models like the 250 GTO
+                and the F40, and a dominant presence in Formula
+                1 racing.</pre></p>
+            <br>
+            <a href="https://www.ferrari.com/en-IN">Visit Ferrari Website</a>
+            <br>
+            <br>
+
+        </li>
+        </div>
+        <div class="box" id="ferrari1">
+            <img src="https://th.bing.com/th/id/OIP.lCVItp5XUTg1B_dCfXsoCAHaEA?pid=ImgDet&rs=1" width="400" alt="Ferrari">
+        </div>
+        </div>
+    </ul>
+    </div>
+    <div id="table">
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Car Name</th>
+                <th>Horse Power</th>
+                <th>Price</th>
+                <th>No. of Cars Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mc Laren</td>
+                <td>150 HP</td>
+                <td>$ 2 Million     </td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Audi</td>
+                <td>200 HP</td>
+                <td>$ 3 Million</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ferrari</td>
+                <td>200 HP</td>
+                <td>$ 6 Million</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- <div id="iframe">
+    <iframe src="https://en.wikipedia.org/wiki/Car" width="80%" height="500" frameborder="0"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br> -->
+    <div class="blog-content">
+        <h2 style="color: azure; font-weight: 400 ">A Glimpse into McLaren, Audi, and Ferrari</h2>
+
+        <div class="brand">
+            <h3>McLaren</h3>
+            <p>The master of precision and speed, McLaren is renowned for its Formula 1 heritage and iconic supercars like the McLaren F1 and P1.</p>
+        </div>
+
+        <div class="brand">
+            <h3>Audi</h3>
+            <p>The fusion of luxury and performance, Audi delivers iconic vehicles like the R8, a commitment to EV technology, and top-tier luxury with its A-series cars.</p>
+        </div>
+
+        <div class="brand">
+            <h3>Ferrari</h3>
+            <p>The epitome of supercars, Ferrari's legacy boasts the legendary 250 GTO and the iconic F40, with a rich Formula 1 heritage.</p>
+        </div>
+    </div>
+    <br>
+    <h1 style="text-align: center;">User Details Form</h1>
+    <div id="form">
+    
+    <form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Name">
+        
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        
+        <br>
+        <div id="favcar">
+            <div id="1s">
+            <label for="myCheckbox">Mc Laren:</label>
+            <input type="checkbox" id="myCheckbox" name="Mc Laren">
+            </div>
+            <div id="2s">
+            <label for="myCheckbox">Audi:</label>
+            <input type="checkbox" id="myCheckbox" name="Audi">
+            </div>
+            <div id="3s">
+            <label for="myCheckbox">Ferrari:</label>
+            <input type="checkbox" id="myCheckbox" name="Ferrari">
+            </div>
+        </div>
+        <label for="location">Select a Location:</label>
+        <select id="location" name="location">
+        <option value="New Delhi">New Delhi</option>
+        <option value="Mumbai">Mumbai </option>
+        <option value="Bangalore">Bangalore </option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Chennai">Chennai</option>
+        </select>
+        <input  style="color: rgb(12, 14, 14); background-color: bisque; "type="submit" value="Submit" >
+    </form>
+    </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <p style="color: rgb(165, 42, 124); font-family: monospace; font-style: inherit ; font-weight: 200;">&copy; 2023 Puneeth's Showroom xyz@gmail.com 96940988904</p>
+        </footer>
+    </div>
+</body>
+</html>
